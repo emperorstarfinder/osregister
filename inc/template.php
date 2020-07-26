@@ -5,12 +5,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="<?php echo $title. " v" .$version; ?>">
+    <meta name="description" content="<?php echo $title.; ?>">
     <meta name="author" content="Philippe Lemaire (djphil)">
     <link rel="icon" href="img/favicon.ico">
     <link rel="author" href="inc/humans.txt" />
     <meta name="robots" content="noindex">
-    <title><?php echo $title. " v" .$version; ?></title>
+    <title><?php echo $title.; ?></title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/bootstrap-extras.css">
@@ -59,7 +59,7 @@
             <div class="container-fluid">
                 <div class="text-muted">
                     <div class="pull-right">
-                        <?php echo $title.' v'.$version.' '.$txt_by; ?> djphil 
+                        <?php echo $title.' '.$txt_by; ?> djphil 
                         <span class="label label-default">CC-BY-NC-SA 4.0</span>
                     </div>
                     &copy; 2015 - <?php $date = date('Y'); echo $date; ?> Digital Concepts - <?php echo $txt_allrightreserved; ?>

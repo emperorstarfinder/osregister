@@ -25,7 +25,7 @@ define('TB_AVATARS', $dbname.'.avatars');
  * General
  */
 $title = "OpenSim Register";
-$version = "0.1";
+//$version = "0.1";
 $webmaster_uuid = "<ADMIN UUID>";
 $webmaster_email = "<ADMIN EMAIL>";
 // Problem to send email, uncomment the next line

@@ -187,7 +187,7 @@ if (isset($_POST['create']))
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title"><?php echo $title. " v" .$version.": ".$txt_ua_tos; ?></h4>
+                <h4 class="modal-title"><?php echo $title.": ".$txt_ua_tos; ?></h4>
             </div>
             <div class="modal-body">
                 <?php

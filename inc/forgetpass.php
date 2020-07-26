@@ -26,14 +26,14 @@ if (isset($_POST['forgetpass']))
 
             /*sendmail*/
             $toname = $email;
-            $subject = $title.' v'.$version.' - Reset Password';
+            $subject = $title.' - Reset Password';
             $message = "
             <html>
             <head>
-                <title>".$title.' v'.$version."</title>
+                <title>".$title."</title>
             </head>
             <body>
-                <h1>".$title.' v'.$version."</h1>
+                <h1>".$title."</h1>
                 <h2>Reset Password</h2>
                 <p><strong>Username:</strong> ".$username." </br /><strong>Password:</strong> ".$password."</p>    
             </body>

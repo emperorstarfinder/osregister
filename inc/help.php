@@ -1,7 +1,7 @@
 <section>
     <article>
         <h1><?php echo $menu_help; ?><i class="glyphicon glyphicon-education pull-right"></i></h1>
-        <?php echo $txt_welcometo.' '.$title." v".$version; ?>
+        <?php echo $txt_welcometo.' '.$title; ?>
         <br />This is a Registration Web Interface for OpenSimulator
     </article>
     <article>

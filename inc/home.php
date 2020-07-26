@@ -6,7 +6,7 @@
 <div class="jumbotron-particles">
     <div class="img-thumbnail" id="particles-js"></div>
     <div class="jumbotron-holder">
-        <h1><?php echo $title. " v" .$version; ?></h1>
+        <h1><?php echo .$title; ?></h1>
         <h3><?php echo $txt_title_desc; ?></h3>
         <br />
         <?php if (isset($_SESSION['valid'])): ?>

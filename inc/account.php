@@ -5,7 +5,7 @@
     <h1><?php echo $txt_myaccount; ?> <i class="glyphicon glyphicon-user pull-right"></i></h1>
     <p>
         <?php echo $txt_hello; ?> <strong><?php echo $_SESSION['username']; ?></strong>, 
-        <?php echo strtolower($txt_welcometo); ?> <strong><?php echo $title.' v'.$version; ?></strong>
+        <?php echo strtolower($txt_welcometo); ?> <strong><?php echo $title.; ?></strong>
         <a class="btn btn-primary btn-xs pull-right" href="?page=account" title="Refresh">
         <i class="glyphicon glyphicon-refresh"></i></a>
     </p>
